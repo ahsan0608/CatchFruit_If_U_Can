@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAME OVER"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_marginTop="80sp"
+        android:textSize="40sp"
+        android:id="@+id/score"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="congrates! U made a new HiGh Score!"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:id="@+id/congrates"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Score : 0"
+        android:layout_marginTop="60dp"
+        android:textSize="30sp"
+        android:id="@+id/highScore"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try Again"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        android:id="@+id/tryAgain"/>
+
+</LinearLayout>
